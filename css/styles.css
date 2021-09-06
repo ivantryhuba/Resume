@@ -19,8 +19,8 @@ body {
   box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 }
 .sidebar {
-  width: 550px;
-  background-color: #104b37;
+  width: 600px;
+  background-color: #ff7b00;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -36,14 +36,16 @@ body {
   font-size: 22px;
   font-weight: 700;
   line-height: 24px;
-  color: #fff;
+  color: #000;
   margin-bottom: 20px;
 }
 .contacts-list li {
+  display: flex;
+  align-items: center;
   list-style: none;
 }
 .contacts-tipe {
-  color: #fff;
+  color: #000;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -53,10 +55,10 @@ body {
   margin-right: 10px;
   width: 16px;
   height: 16px;
-  fill: #fff;
+  fill: #000;
 }
 .contacts-link {
-  color: #5adbe4;
+  color: #464646;
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -67,18 +69,18 @@ body {
   margin-top: 55px;
 }
 .skills-item {
-  color: #daff08;
+  color: #000;
 }
 .skills {
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
-  color: #fff;
+  color: #464646;
   margin-left: 15px;
 }
 
 .about-me {
-  padding: 60px;
+  padding: 25px;
 }
 .about-me-main-info {
   margin-bottom: 40px;
