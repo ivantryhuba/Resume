@@ -11,6 +11,18 @@ body {
   padding-bottom: 40px;
   font-family: Montserrat;
 }
+
+a,
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
 .wrapper {
   background-color: #fff;
   display: flex;
@@ -127,10 +139,12 @@ body {
 .projects-item-container > h3 {
   margin-right: 10px;
 }
-.project-name {
-  color: #104b37;
+.project-link {
+  font-size: 18px;
   font-weight: 700;
+  color: #104b37;
 }
+
 .projects {
   font-size: 14px;
   font-weight: 400;
